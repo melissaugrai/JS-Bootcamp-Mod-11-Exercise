@@ -112,7 +112,7 @@ ul {
 
 .hero-area::after {
     content: "";
-    background-image: url("https://cdn5.vectorstock.com/i/1000x1000/89/99/a-seamless-cherry-blossom-pattern-vector-18088999.jpg");
+    background-image: url(/Cherry_Blossom_Background_2_Eezy_generated.jpg);
     opacity: 0.3;
     top: 0;
     bottom: 0;
