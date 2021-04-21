@@ -151,17 +151,23 @@ h2 {
 }
 
 .top-layout {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	flex-wrap: wrap;
+}
+
+.top-layout > * {
+	flex: 1 1 20rem;
 }
 
 .post-short-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 48%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 10px;
+	width: 48%;
 }
 
 .title-content {
